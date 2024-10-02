@@ -14,7 +14,7 @@ public class UnidasulPOC {
 		try {  
             connection = DriverManager.getConnection(  
                 //Specify the connection parameters
-                "jdbc:sap://cb12347d-3a21-4c2e-9c42-ed1db64758f1.hana.prod-br10.hanacloud.ondemand.com:443?encrypt=true&validateCertificate=true", "UNIDASUL_HDI_DB_1_9EYTD2GM2A0W2DFV8QNC1DH8S_RT", "Gy3P5nYcnswcB8UGjBT0yaKYaml2novMs9lPb1r_oBRQDx-NeAhWhWAkmHKg3Lwxvisiu9.ovMjDFdshc.RrG5tz2bkZScUmqWsK6VT5xKRZU-uOzKtpwbC31OhwbtGX");
+                "jdbc:sap://XXXXXXXX?encrypt=true&validateCertificate=true", "XXXXXXXXx", "XXXXX");
         }
         catch (SQLException e) {
             System.err.println("Connection Failed:");
